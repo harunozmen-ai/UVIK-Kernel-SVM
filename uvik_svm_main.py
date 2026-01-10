@@ -93,11 +93,12 @@ def run_benchmark():
             print(f"{name:<15} | {d:<5} | {acc_str:<18} | {f1_str:<18} | {kap_str:<15}")
 
         except Exception as e:
-            print(f"❌ Error in {name}: {e}")
+            print(f" Error in {name}: {e}")
 
     print("-" * 110)
     print("\n All experiments are complete.")
 
 if __name__ == "__main__":
     run_benchmark()
+
     
