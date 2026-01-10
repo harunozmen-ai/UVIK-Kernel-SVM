@@ -12,7 +12,7 @@ $$K(x, y) = \exp(-\gamma \cdot \ln(1 + r^3))$$
 - **Volumetric Margin:** The cubic component $r^3$ provides sharper class separation.
 - **Numerical Stability:** The logarithmic term $\ln(1+r^3)$ prevents gradient issues during optimization.
 
-## 📊 Experimental Performance
+##  Experimental Performance
 Results obtained using **5-Fold Stratified Cross-Validation**:
 
 | Dataset | Dimensions (d) | Accuracy (%) | F1-Score | Cohen's Kappa |
