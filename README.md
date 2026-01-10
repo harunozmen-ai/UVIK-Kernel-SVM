@@ -12,7 +12,7 @@ $$K(x, y) = \exp(-\gamma \cdot \ln(1 + r^3))$$
 - **Volumetric Margin:** The cubic component $r^3$ provides sharper class separation.
 - **Numerical Stability:** The logarithmic term $\ln(1+\cdot)$ prevents gradient issues during optimization.
 
-## 📊 Experimental Performance
+##  Experimental Performance
 Results obtained using **5-Fold Stratified Cross-Validation**:
 
 | Dataset | Dimensions (d) | Accuracy (%) | F1-Score | Cohen's Kappa |
@@ -22,7 +22,7 @@ Results obtained using **5-Fold Stratified Cross-Validation**:
 | Breast Cancer | 30 | 95.78 ±1.52 | 0.9576 | 0.9102 |
 | Sonar| 60 | 84.16 ±3.51 | 0.8406 | 0.6805 |
 
-## 🛠️ Quick Start
+##  Quick Start
 1. Ensure you have `scikit-learn`, `numpy`, and `scipy` installed.
 2. Run the benchmark:
 ```bash
