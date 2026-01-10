@@ -10,7 +10,7 @@ $$K(x, y) = \exp(-\gamma \cdot \ln(1 + r^3))$$
 ### Key Benefits:
 - **Dimension Independence:** High performance on both low-dimensional (d=4) and high-dimensional (d=60) data.
 - **Volumetric Margin:** The cubic component $r^3$ provides sharper class separation.
-- **Numerical Stability:** The logarithmic term $\ln(1+\cdot)$ prevents gradient issues during optimization.
+- **Numerical Stability:** The logarithmic term $\ln(1+$r^3$)$ prevents gradient issues during optimization.
 
 ##  Experimental Performance
 Results obtained using **5-Fold Stratified Cross-Validation**:
