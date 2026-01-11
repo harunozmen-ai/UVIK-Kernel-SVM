@@ -15,12 +15,13 @@ $$K(x, y) = \exp(-\gamma \cdot \ln(1 + r^3))$$
 ##  Experimental Performance
 Results obtained using **5-Fold Stratified Cross-Validation**:
 
-| Dataset | Dimensions (d) | Accuracy (%) | F1-Score | Cohen's Kappa |
-|---------|----------------|--------------|----------|---------------|
-| **Iris** | 4 | 96.67 ±3.65 | 0.9666 | 0.9500 |
-| **Wine** | 13 | 98.33 ±2.11 | 0.9832 | 0.9748 |
-| **Breast Cancer** | 30 | 95.78 ±1.52 | 0.9576 | 0.9102 |
-| **Sonar** | 60 | 84.16 ±3.51 | 0.8406 | 0.6805 |
+| Dataset | Dimensions (d) | Accuracy (%) ± STD | F1-Score ± STD | Cohen's Kappa ± STD |
+|---------|----------------|-------------------|----------------|---------------------|
+| **Iris** | 4 | 96.67 ± 3.65 | 0.9666 ± 0.0366 | 0.9500 ± 0.0548 |
+| **Wine** | 13 | 98.33 ± 2.22 | 0.9833 ± 0.0222 | 0.9748 ± 0.0336 |
+| **Breast Cancer** | 30 | 97.01 ± 1.19 | 0.9699 ± 0.0121 | 0.9354 ± 0.0262 |
+| **Ionosphere** | 34 | 94.59 ± 1.40 | 0.9452 ± 0.0142 | 0.8801 ± 0.0313 |
+| **Sonar** | 60 | 84.16 ± 3.51 | 0.8406 ± 0.0349 | 0.6805 ± 0.0697 |
 
 ##  Quick Start
 1. Ensure you have `scikit-learn`, `numpy`, and `scipy` installed.
