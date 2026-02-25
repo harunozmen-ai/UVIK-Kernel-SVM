@@ -15,7 +15,7 @@ $$K(x, y) = \exp(-\gamma \cdot \ln(1 + r^3))$$
 ##  Experimental Performance
 Results obtained using **5-Fold Stratified Cross-Validation**:
 
-### 📊 Performance Benchmarks (DRLC vs. RBF & Poly)
+### Performance Benchmarks (DRLC vs. RBF & Poly)
 
 | Data Set | Feature (d) | DRLC (Proposed) | SVM-RBF | SVM-Poly | λ_min | F1-Score |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
