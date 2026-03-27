@@ -148,7 +148,7 @@ def run_benchmark():
         except Exception as e:
             print(f" Error in {name}: {e}")
 
-    # Boş kalan son subplot
+    #  subplot
     if len(datasets_info) < len(axes):
         axes[-1].axis('off')
 
