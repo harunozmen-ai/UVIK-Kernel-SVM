@@ -35,4 +35,4 @@ Results obtained using **5-Fold Stratified Cross-Validation**:
 1. Ensure you have `scikit-learn`, `numpy`, and `scipy` installed.
 2. Run the benchmark:
 ```bash
-python uvik_svm_main.py
+python drlc_svm_main.py
